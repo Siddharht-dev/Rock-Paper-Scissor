@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.option{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.option div{
+    height: 150px;
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    justify-content: center;
+}
+
+.option div:hover{
+    border: 5px solid black;
+    cursor: pointer;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.scores .user,
+.scores .computer{
+    background-color: lightblue;
+    padding: 20px 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.scores h2 {
+    margin: 0;       /* removes default top/bottom space */
+    padding: 0;      /* remove extra padding */
+    color: black;
+    background-color: lightblue;    /* optional, makes text visible */
+}
+
+
+.message{
+    display: inline-block;
+    text-align: center;
+    margin: 50px auto 0;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: green;
+    padding: 15px 25px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+
+
+
